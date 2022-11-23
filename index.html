@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"  />
+</head>
+<body>
+    <header>    
+        <div class="user">
+            <image id="mypic"
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEjf3mc3-gB02l5B6_VmoNrKpJ9h8EAlj2ayG3TxQiS2dFkkPtuvMN5UBnh3amaVZQQbWnbbotRlb986WDVNVy_wcLflHOiFf3D9_LYpLEwZQmBY17t7e4O-TkOKjePRZvzJ2z2WPzNyqjC7GtYvzSgr9Kn7bKaNVUIuTAt7fhw3T6-te96_qf_ZtF-B-Q=w517-h640"alt="mypic"/>
+            <h3 class="name">Priya Kharke</h3>
+            <P class="post">front end developer</P>
+        </div>
+        
+          <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#project">projects</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#contact">contact</a></li>
+
+            </ul>
+          </nav>
+        </header>
+        <div id="menu" class="fas fa-bars"></div>
+        <!--home section-->
+        <section class="home" id="home">
+            <h3>HI THERE !</h3>
+            <h1>I'M  <span>Priya Kharke</span></h1>
+            <p>professional front end developer</p>          
+            <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>  
+        </section>
+        <!--about section start-->
+        <section class="about" id="about">
+          <h1 class="heading"><span>About  </span>Me</h1>
+          <div class="row1">
+          <div class="info1">
+            <h3><span>name:  </span>Kharke Priya</h3>
+            <h3><span>qualification:  </span>computer science engineering</h3>
+            <h3><span>post:  </span>fornt end developer</h3>
+            <h3><span>mothertong:  </span>marathi</h3>
+            <h3><span>languages known:  </span> hindi  english</h3>
+            <h3><span>project completed:  </span>3+</h3>
+            <a href="#"><button class="btn">download CV<i class="fas fa-download"></i></button></a>
+            
+          </div>
+           </div>
+        </section>
+        <!--project section start-->
+        <section class="project" id="project">
+            <h1 class="heading"><span>Project  </span>Completed</h1>
+            <div class="box-container">
+
+            <div class="box">
+                <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUolCmySFuP3kJnmkPvN58SBKttzm434yP6Q&usqp=CAU" alt="zomato image">
+                  </image>
+                    
+                  <a href="https://www.google.com/search?q=zomato&source=lmns&bih=593&biw=1232&rlz=1C1ASVC_enIN896IN896&hl=en&sa=X&ved=2ahUKEwio9ujVlaj7AhUCktgFHf3rCxgQ_AUoAHoECAEQAA"><h3><span>zomato clone</span></h3>
+                  </a>
+                </div>
+              <div class="box">
+                <image src="img2.jpeg" alt="amazone clone"></image>
+                  <a href="#amazone">amazone</a>
+              </div>  
+              <div class="box">
+                <image src="img2.jpeg" alt="wordle"></image>
+                  <a href="#wordle">wordle</a>
+              </div>
+              <div class="box">
+                <image src="img3.jpeg" alt="html/css project"></image>
+                  <a href="#htmlcssproject">calculator</a>
+              </div>
+              <div class="box">
+                <image src="img4.jpeg" alt="shop"></image>
+                  <a href="#earhearwebsite">earwebsite</a>
+              </div>
+              </div>
+         
+        </section>
+        <!--education section start-->
+        <section id="education" class="education">
+          <h1 class="heading"><span>My  </span>Education</h1>
+          <div class="box-container">
+            <div class="box">
+              <i class="fas fa-graduation-cap"></i>
+              <span>2020</span>
+              <h3>BE in computer science</h3>
+              <p>completed my graduation in computer science from BAMU university</p>
+            </div>
+          </div>
+    <!--contact section start-->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact  </span>Me</h1>
+      <div class="row">
+      <div class="content">
+        <h3 class="title">contact info</h3>
+        <div class="info4">
+          <h3><i class="fas fa-envelope"></i>   priyakharkea@gmail.com</h3>
+          <h3><i class="fas fa-phone"></i>   +91 9146509286</h3>
+          <h3><i class="fa-solid fa-location-dot"></i>  pune, maharashtra, india-411013</h3>
+         
+        </div>
+      </div>
+      
+        <form method="post" action="" class="share-your-info">
+          <input type="text" id="name" class="box"placeholder="Your full name..."required/>
+          <input type="email" id="email"class="box"placeholder="Enter your correct email address..."required/>
+          <input type="text" id="website"class="box"placeholder="Project">
+          <textarea name="" id="" cols="30" rows="10"class="box"placeholder="Message"></textarea>
+        
+        <button type="submit" class="btn">Send<i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+    
+
+<!--scroll top button-->
+<a href="#home" class="top">
+  <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT50AAML2NwUkhFanw-Ls9fd2hTH8bRvcnBL7fNiF1-JNiubPrCUDl5j_xnIL7q0AxusWw&usqp=CAU"alt="scroll-top">
+  </image>>
+
+</a>
+</section>
+</body>
+</html>
